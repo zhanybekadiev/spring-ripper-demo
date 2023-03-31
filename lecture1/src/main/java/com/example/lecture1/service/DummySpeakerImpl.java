@@ -1,8 +1,8 @@
-package com.example.springripperdemo.lecture1.service;
+package com.example.lecture1.service;
 
-import com.example.springripperdemo.lecture1.annotation.OnStartup;
-import com.example.springripperdemo.lecture1.annotation.Benchmark;
-import com.example.springripperdemo.lecture1.annotation.InjectRandomInt;
+import com.example.lecture1.annotation.InjectRandomInt;
+import com.example.lecture1.annotation.OnStartup;
+import com.example.lecture1.annotation.Benchmark;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

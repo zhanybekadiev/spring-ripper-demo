@@ -1,7 +1,7 @@
-package com.example.springripperdemo.lecture1.listener;
+package com.example.lecture1.listener;
 
-import com.example.springripperdemo.lecture1.annotation.OnStartup;
-import com.example.springripperdemo.Reflections;
+import com.example.common.Reflections;
+import com.example.lecture1.annotation.OnStartup;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
