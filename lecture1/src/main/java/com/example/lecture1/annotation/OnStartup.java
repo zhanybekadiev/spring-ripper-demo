@@ -1,4 +1,4 @@
-package com.example.springripperdemo.lecture1.annotation;
+package com.example.lecture1.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

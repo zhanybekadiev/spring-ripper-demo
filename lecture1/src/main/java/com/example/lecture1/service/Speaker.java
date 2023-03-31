@@ -1,4 +1,4 @@
-package com.example.springripperdemo.lecture1.service;
+package com.example.lecture1.service;
 
 public interface Speaker {
     void sayHelloRepeated();

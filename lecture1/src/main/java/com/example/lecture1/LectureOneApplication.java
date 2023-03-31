@@ -1,16 +1,13 @@
-package com.example.springripperdemo;
+package com.example.lecture1;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@Slf4j
 @SpringBootApplication
-public class SpringRipperDemoApplication {
-
+public class LectureOneApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringRipperDemoApplication.class, args);
+        SpringApplication.run(LectureOneApplication.class, args);
     }
 
 }

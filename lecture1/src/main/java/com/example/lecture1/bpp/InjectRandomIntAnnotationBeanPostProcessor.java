@@ -1,7 +1,7 @@
-package com.example.springripperdemo.lecture1.bpp;
+package com.example.lecture1.bpp;
 
-import com.example.springripperdemo.lecture1.annotation.InjectRandomInt;
-import com.example.springripperdemo.Reflections;
+import com.example.common.Reflections;
+import com.example.lecture1.annotation.InjectRandomInt;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;

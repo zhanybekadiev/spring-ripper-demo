@@ -1,4 +1,4 @@
-package com.example.springripperdemo;
+package com.example.common;
 
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
