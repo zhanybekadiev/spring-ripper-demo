@@ -3,10 +3,12 @@ package com.example.lecture1.service;
 import com.example.lecture1.annotation.InjectRandomInt;
 import com.example.lecture1.annotation.OnStartup;
 import com.example.lecture1.annotation.Benchmark;
+import com.example.lecture1.annotation.Replaced;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 @Slf4j
+@Replaced(newImpl = NewDummySpeakerImpl.class)
 @Service("dummySpeakerImpl")
 public class DummySpeakerImpl implements Speaker {
     @InjectRandomInt(min = 10, max = 100)
